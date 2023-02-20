@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: url('images/bg_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+.wrapper {
+    width: 40vw;
+    height: 60vh;
+    border-radius: 5px;
+
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.wrapper p {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    overflow: hidden;
+}
+
+.wrapper button {
+    cursor: pointer;
+    padding: .8rem 1.3rem;
+    background: #84C54D;
+
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 1rem;
+    color: inherit;
+}
+
+.catagory {
+    width: 40vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.catagory button {
+    cursor: pointer;
+    padding: .8rem 1.3rem;
+    background: #84C54D;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: 1px solid white;
+    color: inherit;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+
+/* ===================
+     CSS for Tablets
+   =================== */
+
+
+@media (min-width: 1400px) {
+    .wrapper {
+        width: 70vw;
+    }
+}
+
+/* ===================
+    CSS for Mobile devices
+   =================== */
+
+@media (max-width: 900px) {
+    html {
+        font-size: 16px;
+    }
+
+    .wrapper {
+        width: 90vw;
+
+    }
+
+    .catagory {
+        width: 90vw;
+        margin-top: 20px;
+    }
+
+    .catagory button,
+    .wrapper button {
+        font-size: 1.1rem;
+    }
+
+    h2 {
+        margin-bottom: 50px;
+    }
+}
