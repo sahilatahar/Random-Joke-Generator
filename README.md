@@ -1,5 +1,7 @@
 # Random-Joke-Generator using HTML, CSS, JavaScript
 
-## Live Demo : https://sahil-atahar.github.io/random-joke-generator
+[![My Skills](https://skillicons.dev/icons?i=html,css,javascript&perline=3)](https://skillicons.dev)
+
+## Live Demo : https://sahil-atahar.github.io/Random-Joke-Generator/
 
 ## Using API : https://v2.jokeapi.dev/
